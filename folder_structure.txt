@@ -1,0 +1,31 @@
+NSCLC-FusionNet/
+├── dataloader.py
+├── model.py
+├── train.py                 
+├── requirements.txt
+├── data/
+│   ├── tcga_luad/
+│   │   ├── wsi/
+│   │   ├── rna/
+│   │   └── clinical.csv
+│   ├── tcga_lusc/
+│   │   ├── wsi/
+│   │   ├── rna/
+│   │   └── clinical.csv
+│   ├── radiogenomics/
+│   │   ├── ct/
+│   │   ├── pet/
+│   │   ├── rna/
+│   │   └── clinical.csv
+│   ├── cptac/
+│   │   ├── wsi/
+│   │   ├── rna/
+│   │   └── clinical.csv
+│   ├── lung1/
+│   │   ├── ct/
+│   │   └── clinical.csv
+│   └── acrin6668/
+│       ├── pet/
+│       ├── ct/
+│       └── clinical.csv
+└── README.md
